@@ -1,0 +1,30 @@
+{
+  "name": "daruma-check-in-backend",
+  "version": "1.0.0",
+  "description": "backend for check in application using Google Sheets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgemartal/daruma-check-in-backend.git"
+  },
+  "keywords": [
+    "Node.JS",
+    "Javascript",
+    "GoogleSheets"
+  ],
+  "author": "jorgemartal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgemartal/daruma-check-in-backend/issues"
+  },
+  "homepage": "https://github.com/jorgemartal/daruma-check-in-backend#readme",
+  "dependencies": {
+    "@googleapis/docs": "^3.0.2",
+    "express": "^4.19.2",
+    "googleapis": "^140.0.0"
+  }
+}
